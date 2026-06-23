@@ -10,7 +10,7 @@ char board[3][3] = {
 int row;
 int col;
 int player = 0;
-int Gamestatus = 0;//0-igra prodoljayetsya, 1-nichya, 2-Igrok, 3-bot
+int Gamestatus = 0;//0-Game continues, 1-Tie, 2-Player, 3-bot
 int indicator = -1;
 
 void showBoard() {
